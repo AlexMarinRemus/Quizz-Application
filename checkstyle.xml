@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+        "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+        "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<module name = "Checker">
+    <module name="TreeWalker">
+        <module name="UnusedImports" />
+        <module name="SingleSpaceSeparator">
+            <property name="validateComments" value="true"/>
+        </module>
+        <module name="StringLiteralEquality"/>
+         <!--  <module name="MethodName"/>  -->
+        <module name="MethodLength"/>
+       
+        <module name="NestedForDepth">
+            <property name="max" value="3"/>
+        </module>
+        <module name="EmptyStatement"/>
+        <!-- <module name="OverloadMethodsDeclarationOrder"/> -->
+        <module name="DefaultComesLast"/>
+        <module name="FallThrough"/>
+        <module name="NoWhitespaceBeforeCaseDefaultColon"/>
+        <module name="InvalidJavadocPosition"/>
+
+    </module>
+     <!-- <module name="LineLength"/> -->
+</module>

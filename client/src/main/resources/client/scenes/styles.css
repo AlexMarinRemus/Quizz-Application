@@ -1,0 +1,119 @@
+.root{
+   -fx-font-family: "PT Sans";
+}
+
+.background{
+   /*-fx-background-color: linear-gradient(to right, #80e8ff, #ffb5fe);*/
+   -fx-background-color: radial-gradient(center 50% 50% , radius 120% , #ffebcd, #33a5d6);
+   -fx-background-size: 400% 400%;
+}
+.button{
+   -fx-background-color: transparent;
+   -fx-border-color: black;
+}
+.button:hover{
+   -fx-background-color: #dce7e8;
+}
+
+.text-field{
+   -fx-background-color: #dce7e8;
+   -fx-border-color: black;
+}
+.title{
+
+}
+
+.leave{
+   -fx-background-color: #dce7e8;
+}
+
+.leave:hover{
+   -fx-background-color: #c6cfd0;
+}
+
+.leader_title{
+   -fx-border-style: hidden none solid none;
+   -fx-border-color: black;
+}
+
+.leader_left{
+   -fx-border-style: hidden none none solid;
+   -fx-border-color: black;
+}
+
+.leader_right{
+   -fx-border-style: hidden solid none none;
+   -fx-border-color: black;
+}
+.section{
+   -fx-background-color: #ffebcd;
+   -fx-opacity: 40%;
+   -fx-border-color: black;
+}
+
+.table-view {
+   -fx-background-color: transparent;
+   -fx-border-color: black;
+   -fx-border-width: 1px;
+   -fx-text-alignment: center;
+}
+
+.table-view .column-header-background .filler {
+   -fx-background-color: transparent;
+}
+
+.table-view .corner {
+   -fx-background-color: transparent;
+}
+
+.table-view .table-column{
+   -fx-alignment: center;
+   -fx-font-size: 15px;
+}
+
+.table-view .column-header-background{
+   -fx-background-color: transparent;
+}
+
+.table-view .column-header {
+   -fx-background-color: transparent;
+   -fx-font-size: 20px;
+}
+
+.table-view .table-cell{
+   -fx-border-color: transparent;
+}
+
+.table-row-cell{
+   -fx-background-color: transparent;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+   -fx-background-color: transparent;
+}
+
+.progress-bar > .track {
+   -fx-text-box-border: transparent;
+   -fx-control-inner-background: transparent;
+   -fx-background-color: transparent;
+}
+
+.progress-bar{
+   -fx-background-color: transparent;
+   -fx-border-color: black;
+}
+
+.radio-button .radio{
+   -fx-background-color: transparent;
+   -fx-border-color: black;
+   -fx-border-radius: 15px;
+}
+
+.radio-button .dot {
+   -fx-background-radius: 15px;
+}

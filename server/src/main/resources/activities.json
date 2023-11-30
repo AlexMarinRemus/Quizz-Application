@@ -1,0 +1,162 @@
+[
+  {
+    "consumption_in_wh": 200,
+    "image_path": "images/34/electriccar.png",
+    "title": "Driving an electric car for 1 kilometer",
+    "title_id": "34-electriccar",
+    "source": "https://www.virta.global/blog/ev-charging-101-how-much-electricity-does-an-electric-car-use",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 243,
+    "image_path": "images/34/hairdryer.png",
+    "title": "Using a hair dryer for 15 minutes on medium power setting",
+    "title_id": "34-hairdryer",
+    "source": "https://ecocostsavings.com/hair-dryer-wattage/",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 2016,
+    "image_path": "images/34/aircon.png",
+    "title": "Using the Room Air Conditioning for 6 hours",
+    "title_id": "34-aircon",
+    "source": "https://www.teachengineering.org/content/cla_/activities/cla_activity2_household_audit/household_audit_activity2_student_worksheet.doc",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 118,
+    "image_path": "images/34/watchingtv.png",
+    "title": "Watching TV for 2 hours",
+    "title_id": "34-watchingtv",
+    "source": "https://ecocostsavings.com/tv-wattage/#how-many-watts-does-a-tv-use",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 400,
+    "image_path": "images/34/boilingeggs.png",
+    "title": "Boiling eggs for 10 minutes",
+    "title_id": "34-boilingeggs",
+    "source": "https://www.energyvanguard.com/blog/what-do-eggs-have-to-do-with-energy-conservation/",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 16,
+    "image_path": "images/34/router.png",
+    "title": "A router that is on for 4 hours",
+    "title_id": "34-router",
+    "source": "https://www.daftlogic.com/information-appliance-power-consumption.htm",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 3600,
+    "image_path": "images/34/dishwasher.png",
+    "title": "Using a dishwasher for 2 hours",
+    "title_id": "34-dishwasher",
+    "source": "https://blog.arcadia.com/electricity-costs-10-key-household-products/",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 2000,
+    "image_path": "images/34/iphonecharge.png",
+    "title": "Fully charging an iPhone",
+    "title_id": "34-iphonecharge",
+    "source": "https://www.forbes.com/sites/christopherhelman/2013/09/07/how-much-energy-does-your-iphone-and-other-devices-use-and-what-to-do-about-it/",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 700,
+    "image_path": "images/34/vacuum.png",
+    "title": "Using a vacuum cleaner for 30 minutes",
+    "title_id": "34-vacuum",
+    "source": "https://www.thehomehacksdiy.com/how-much-power-watts-does-a-vacuum-cleaner-use/",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 900,
+    "image_path": "images/34/toasteroven.png",
+    "title": "A toaster oven set to 230 C for 50 minutes",
+    "title_id": "34-toasteroven",
+    "source": "https://perfectforhome.com/how-many-watts-does-a-toaster-oven-use/",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 48,
+    "image_path": "images/34/alarm.png",
+    "title": "Using a radio alarm clock for 24 hours",
+    "title_id": "34-alarm",
+    "source": "https://energyusecalculator.com/electricity_alarmclock.htm#:~:text=Modern%20alarm%20clocks%20with%20built,radio%20will%20use%202%20watts.",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 40,
+    "image_path": "images/34/toaster.png",
+    "title": "Use a toaster for 2 slices of bread",
+    "title_id": "34-toaster",
+    "source": "https://www.siliconvalleypower.com/residents/save-energy/appliance-energy-use-chart",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 300,
+    "image_path": "images/34/microwave.png",
+    "title": "Using a microwave for 15 minutes",
+    "title_id": "34-microwave",
+    "source": "https://blog.arcadia.com/electricity-costs-10-key-household-products/",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 180,
+    "image_path": "images/34/lightbulb.png",
+    "title": "Using a light bulb for 3 hours",
+    "title_id": "34-lightbulb",
+    "source": "https://blog.arcadia.com/electricity-costs-10-key-household-products/",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 1400,
+    "image_path": "images/34/refridgerator.png",
+    "title": "Running a refrigerator for 1 day",
+    "title_id": "34-refridgerator",
+    "source": "https://ecocostsavings.com/cost-of-running-refrigerator/",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 48000,
+    "image_path": "images/34/nft.png",
+    "title": "Transaction of an NFT",
+    "title_id": "34-nft",
+    "source": "https://nftexplained.info/how-much-energy-does-an-nft-use/",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 5000,
+    "image_path": "images/34/laptopcharge.png",
+    "title": "Fully charging a standard laptop",
+    "title_id": "34-laptopcharge",
+    "source": "https://ranklaptop.com/how-many-watts-does-a-laptop-charger-use/#:~:text=According%20to%20the%20United%20States,equal%20to%205%2Dkilowatt%20hours.",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 54,
+    "image_path": "images/34/switch.png",
+    "title": "Play on a Nintendo switch for 3 hours",
+    "title_id": "34-switch",
+    "source": "https://www.siliconvalleypower.com/residents/save-energy/appliance-energy-use-chart",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 365,
+    "image_path": "images/34/boilingwater.png",
+    "title": "Boiling water in an electric kettle 5 times",
+    "title_id": "34-boilingwater",
+    "source": "https://ecocostsavings.com/electric-kettle-running-costs/#how-much-does-an-electric-kettle-cost-to-boil",
+    "_class": "commons.Activity"
+  },
+  {
+    "consumption_in_wh": 6100,
+    "image_path": "images/34/netflix.png",
+    "title": "Watching Netflix for 1 hour",
+    "title_id": "34-netflix",
+    "source": "https://www.iea.org/commentaries/the-carbon-footprint-of-streaming-video-fact-checking-the-headlines",
+    "_class": "commons.Activity"
+  }
+]

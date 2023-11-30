@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="701.0" prefWidth="974.0" styleClass="background" stylesheets="client/scenes/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.scenes.Leaderboard">
+    <children>
+      <Pane layoutX="225.0" layoutY="54.0" prefHeight="436.0" prefWidth="535.0" styleClass="section" />
+      <Pane layoutX="225.0" layoutY="77.0" prefHeight="410.0" prefWidth="535.0">
+         <children>
+            <Label fx:id="label2" alignment="CENTER" layoutX="29.0" layoutY="75.0" prefHeight="35.0" prefWidth="477.0" text="Label" wrapText="true">
+               <font>
+                  <Font name="PT Sans" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label3" alignment="CENTER" layoutX="29.0" layoutY="110.0" prefHeight="31.0" prefWidth="477.0" text="Label" wrapText="true">
+               <font>
+                  <Font name="PT Sans" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label4" alignment="CENTER" layoutX="29.0" layoutY="143.0" prefHeight="26.0" prefWidth="477.0" text="Label" wrapText="true">
+               <font>
+                  <Font name="PT Sans" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label5" alignment="CENTER" layoutX="29.0" layoutY="176.0" prefHeight="26.0" prefWidth="477.0" text="Label" wrapText="true">
+               <font>
+                  <Font name="PT Sans" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label6" alignment="CENTER" layoutX="29.0" layoutY="208.0" prefHeight="26.0" prefWidth="477.0" text="Label" wrapText="true">
+               <font>
+                  <Font name="PT Sans" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label7" alignment="CENTER" layoutX="29.0" layoutY="240.0" prefHeight="26.0" prefWidth="477.0" text="Label" wrapText="true">
+               <font>
+                  <Font name="PT Sans" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label8" alignment="CENTER" layoutX="29.0" layoutY="272.0" prefHeight="26.0" prefWidth="477.0" text="Label" wrapText="true">
+               <font>
+                  <Font name="PT Sans" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label9" alignment="CENTER" layoutX="29.0" layoutY="303.0" prefHeight="26.0" prefWidth="477.0" text="Label" wrapText="true">
+               <font>
+                  <Font name="PT Sans" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label10" alignment="CENTER" layoutX="29.0" layoutY="334.0" prefHeight="26.0" prefWidth="477.0" text="Label" wrapText="true">
+               <font>
+                  <Font name="PT Sans" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label11" alignment="CENTER" layoutX="29.0" layoutY="365.0" prefHeight="26.0" prefWidth="477.0" text="Label" wrapText="true">
+               <font>
+                  <Font name="PT Sans" size="24.0" />
+               </font>
+            </Label>
+              <Label fx:id="label1" alignment="CENTER" layoutX="29.0" layoutY="41.0" prefHeight="39.0" prefWidth="477.0" text="Label" wrapText="true">
+               <font>
+                  <Font name="PT Sans" size="24.0" />
+               </font>
+            </Label>
+              <Label alignment="CENTER" layoutX="168.0" layoutY="-22.0" prefHeight="58.0" prefWidth="199.0" styleClass="leader_title" text="Leaderboard" textAlignment="CENTER" wrapText="true">
+                  <font>
+                      <Font name="PT Sans" size="33.0" />
+                  </font>
+              </Label>
+         </children></Pane>
+        <Button layoutX="440.0" layoutY="512.0" mnemonicParsing="false" onAction="#goback" prefHeight="36.0" prefWidth="106.0" text="Go to Menu" />
+    </children>
+</AnchorPane>

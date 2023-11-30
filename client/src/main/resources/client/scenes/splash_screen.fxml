@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="701.0" prefWidth="974.0" styleClass="background" stylesheets="client/scenes/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.scenes.SplashScreen">
+    <children>
+        <Pane layoutX="340.0" layoutY="351.0" prefHeight="164.0" prefWidth="253.0" styleClass="full">
+            <children>
+                <Label fx:id="lead2" alignment="CENTER" layoutX="-2.0" layoutY="64.0" prefHeight="18.0" prefWidth="127.0" styleClass="leader_right" text="Label" />
+                <Label fx:id="lead1" alignment="CENTER" layoutX="-2.0" layoutY="46.0" prefHeight="18.0" prefWidth="127.0" styleClass="leader_right" text="Label" />
+                <Label fx:id="lead4" alignment="CENTER" layoutX="-2.0" layoutY="100.0" prefHeight="18.0" prefWidth="127.0" styleClass="leader_right" text="Label" />
+                <Label fx:id="lead5" alignment="CENTER" layoutX="-2.0" layoutY="118.0" prefHeight="18.0" prefWidth="127.0" styleClass="leader_right" text="Label" />
+                <Label fx:id="lead3" alignment="CENTER" layoutX="-2.0" layoutY="82.0" prefHeight="18.0" prefWidth="127.0" styleClass="leader_right" text="Label" />
+                <Label layoutX="74.0" layoutY="14.0" styleClass="leader_title" text="Leaderboard">
+                    <font>
+                        <Font name="PT Sans" size="16.0" />
+                    </font>
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <padding>
+                        <Insets bottom="3.0" left="10.0" right="10.0" />
+                    </padding>
+                </Label>
+                <Label fx:id="lead6" alignment="CENTER" layoutX="127.0" layoutY="46.0" prefHeight="18.0" prefWidth="127.0" styleClass="leader_left" text="Label" />
+                <Label fx:id="lead7" alignment="CENTER" layoutX="127.0" layoutY="64.0" prefHeight="18.0" prefWidth="127.0" styleClass="leader_left" text="Label" />
+                <Label fx:id="lead9" alignment="CENTER" layoutX="127.0" layoutY="100.0" prefHeight="18.0" prefWidth="127.0" styleClass="leader_left" text="Label" />
+                <Label fx:id="lead10" alignment="CENTER" layoutX="127.0" layoutY="118.0" prefHeight="18.0" prefWidth="127.0" styleClass="leader_left" text="Label" />
+                <Label fx:id="lead8" alignment="CENTER" layoutX="127.0" layoutY="82.0" prefHeight="18.0" prefWidth="127.0" styleClass="leader_left" text="Label" />
+            </children></Pane>
+        <Label blendMode="HARD_LIGHT" layoutX="360.0" layoutY="92.0" text="Energy Game">
+            <font>
+                <Font name="PT Sans" size="36.0" />
+            </font>
+        </Label>
+        <Button fx:id="single" layoutX="140.0" layoutY="300.0" mnemonicParsing="false" onAction="#startsingle" prefHeight="61.0" prefWidth="117.0" text="Single Player" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+        <Button fx:id="multi" layoutX="700.0" layoutY="300.0" mnemonicParsing="false" onAction="#startmulti" prefHeight="61.0" prefWidth="117.0" text="Multi Player" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+        <TextField fx:id="name" cache="true" layoutX="380.0" layoutY="215.0" prefHeight="26.0" prefWidth="173.0" promptText="Player Name" styleClass="text_field">
+            <font>
+                <Font name="PT Sans" size="13.0" />
+            </font></TextField>
+        <Text layoutX="425.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter a Name:">
+            <font>
+                <Font name="PT Sans" size="13.0" />
+            </font></Text>
+        <Button fx:id="help" layoutX="410.0" layoutY="541.0" mnemonicParsing="false" onAction="#starthelp" prefHeight="62.0" prefWidth="127.0" text="Help" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <TextField fx:id="url" cache="true" layoutX="380.0" layoutY="300.0" prefHeight="26.0" prefWidth="173.0" styleClass="text_field" text="8080">
+         <font>
+            <Font name="PT Sans" size="13.0" />
+         </font>
+      </TextField>
+      <Text layoutX="425.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Give the port:">
+         <font>
+            <Font name="PT Sans" size="13.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

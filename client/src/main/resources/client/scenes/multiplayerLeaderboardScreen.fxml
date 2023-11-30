@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="701.0" prefWidth="974.0" styleClass="background" stylesheets="client/scenes/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.scenes.MultiplayerLeaderboard">
+    <children>
+        <Pane layoutX="216.0" layoutY="23.0" prefHeight="547.0" prefWidth="560.0" styleClass="section" />
+        <VBox prefHeight="200.0" prefWidth="100.0" />
+        <Label alignment="CENTER" layoutX="394.0" layoutY="44.0" prefHeight="58.0" prefWidth="199.0" styleClass="leader_title" text="Leaderboard" textAlignment="CENTER">
+            <font>
+                <Font name="PT Sans" size="33.0" />
+            </font>
+        </Label>
+        <Label fx:id="leaderboardposition1" alignment="CENTER" layoutX="347.0" layoutY="111.0" prefHeight="25.0" prefWidth="290.0" text="">
+            <font>
+                <Font name="PT Sans" size="24.0" />
+            </font>
+      </Label>
+        <Button fx:id="goToMenu" layoutX="441.0" layoutY="585.0" mnemonicParsing="false" onAction="#goback" prefHeight="47.0" prefWidth="116.0" text="Go to Menu">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+        <Label fx:id="leaderboardposition2" alignment="CENTER" layoutX="347.0" layoutY="152.0" prefHeight="25.0" prefWidth="290.0" text="">
+            <font>
+                <Font name="PT Sans" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="leaderboardposition3" alignment="CENTER" layoutX="347.0" layoutY="192.0" prefHeight="33.0" prefWidth="290.0" text="">
+            <font>
+                <Font name="PT Sans" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="leaderboardposition4" alignment="CENTER" layoutX="347.0" layoutY="233.0" prefHeight="25.0" prefWidth="290.0" text="">
+            <font>
+                <Font name="PT Sans" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="leaderboardposition5" alignment="CENTER" layoutX="347.0" layoutY="274.0" prefHeight="25.0" prefWidth="290.0" text="">
+            <font>
+                <Font name="PT Sans" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="leaderboardposition6" alignment="CENTER" layoutX="347.0" layoutY="314.0" prefHeight="25.0" prefWidth="290.0" text="">
+            <font>
+                <Font name="PT Sans" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="leaderboardposition7" alignment="CENTER" layoutX="347.0" layoutY="354.0" prefHeight="25.0" prefWidth="291.0" text="">
+            <font>
+                <Font name="PT Sans" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="leaderboardposition8" alignment="CENTER" layoutX="348.0" layoutY="395.0" prefHeight="25.0" prefWidth="290.0" text="">
+            <font>
+                <Font name="PT Sans" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="leaderboardposition9" alignment="CENTER" layoutX="349.0" layoutY="435.0" prefHeight="25.0" prefWidth="290.0" text="">
+            <font>
+                <Font name="PT Sans" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="leaderboardposition10" alignment="CENTER" layoutX="349.0" layoutY="477.0" prefHeight="25.0" prefWidth="290.0" text="">
+            <font>
+                <Font name="PT Sans" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="leaderboardposition11" alignment="CENTER" layoutX="350.0" layoutY="517.0" prefHeight="25.0" prefWidth="290.0" text="">
+            <font>
+                <Font name="PT Sans" size="24.0" />
+            </font>
+        </Label>
+      <ProgressIndicator fx:id="progressIndicator" layoutX="863.0" layoutY="616.0" prefHeight="47.0" prefWidth="62.0">
+         <effect>
+            <Shadow radius="9.415" width="18.66">
+               <color>
+                  <Color red="0.16732943058013916" green="0.30028849840164185" blue="0.6105263233184814" />
+               </color>
+            </Shadow>
+         </effect>
+      </ProgressIndicator>
+    </children>
+</AnchorPane>
