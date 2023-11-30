@@ -28,8 +28,4 @@ where the consumption_in_wh is an integer, the image path leads to a correspondi
 
 ## How to contribute to it
 
-To contribute, contact the contributors of this project.
-
-## Copyright / License (opt.)
-
-Copyright 2022 of the Delft University of Technology
+To contribute, contact the contributor of this project.
