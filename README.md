@@ -1,9 +1,3 @@
-# Starting template
-
-This README will need to contain a description of your project, how to run it, how to set up the development environment, and who worked on it.
-This information can be added throughout the course, except for the names of the group members.
-Add your own name (do not add the names for others!) to the section below.
-
 ## Description of project
 
 The Quizzzz Game is easy to play! The goal is to get as many points as you can by answering 20 energy-consumption based questions. You can use jokers to double your points, eliminate wrong answers, and, in multiplayer mode, to decrease time for other players. You have a choice of single player or multiplayer mode. In single player, you play to make it to the top of the global leaderboard. In multiplayer you can play with up to 10 people, use emojis to show how you're feeling.
